@@ -13,6 +13,7 @@ img{
 
 .logo{
 	max-width: 105px;
+	height: auto;
 }
 .page_title{
 	font-size: 28px;
