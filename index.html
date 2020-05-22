@@ -39,7 +39,7 @@
 
 <body class="bg-dark">
   <header id="header" class="jumbotron jumbotron-fluid pb-1">
-    <div class="container">
+    <div class="container-fluid">
       <a class="text-right d-block small text-white" href="#contribution">&xdtri; Make Improvements</a>
       <h1 class="display-4 page_title">
         <a href="/covid-19-tracker-bd/">
@@ -47,45 +47,39 @@
         </a> Covid-19 Live Update in Bangladesh
       </h1>
       <ul id="summery" class="list-group list-group-horizontal-sm d-flex justify-content-center">
-        <li class="list-group-item">Total Confirmed Cases
-          <span id="total_cases" class="badge badge-warning badge-pill" style="font-size: 20px"></span>
+        <li class="list-group-item text-center">
+          <p class="text-warning">Positive</p>
+          <span id="total_cases" class="badge badge-warning badge-pill"></span>
         </li>
-        <li class="list-group-item">Total Deaths
-          <span id="total_deaths" class="badge badge-danger badge-pill" style="font-size: 20px"></span>
+        <li class="list-group-item text-center">
+          <p class="text-danger">Deaths</p>
+          <span id="total_deaths" class="badge badge-danger badge-pill"></span>
         </li>
-        <li class="list-group-item">Total Recovered
-          <span id="total_recovered" class="badge badge-success badge-pill" style="font-size: 20px"></span>
+        <li class="list-group-item text-center">
+          <p class="text-success">Recovered</p>
+          <span id="total_recovered" class="badge badge-success badge-pill"></span>
         </li>
       </ul>
       <hr>
     </div>
   </header>
-  <section class="container">
 
-    <div class="tab-content" id="myTabContent">
-      <div class="tab-pane fade show active" id="epi_curve" role="tabpanel" aria-labelledby="epiCurveTab">
-        <div class="container">
-          <div class="row justify-content-lg-center">
-
-            <div class="col-md-12 col-lg-8 pl-0">
-              <table class="table table-striped table-dark">
-                <thead>
-                  <tr>
-                    <th scope="col">Date</th>
-                    <th scope="col">Total Confirmed Cases</th>
-                  </tr>
-                </thead>
-                <tbody id="epi_curve_data"></tbody>
-              </table>
-            </div>
-          </div>
-          <!--- .row -->
-        </div> <!-- .container -->
-      </div> <!-- tab-pane fade show active -->
-
-
-    </div> <!-- .tab-content -->
-  </section> <!-- .container -->
+  <section class="container-fluid">
+    <div class="row justify-content-lg-center">
+      <div class="col-md-12 col-lg-8 pl-0">
+        <table class="table table-striped table-dark">
+          <thead>
+            <tr>
+              <th scope="col">Date</th>
+              <th scope="col">Confirmed Cases</th>
+            </tr>
+          </thead>
+          <tbody id="epi_curve_data"></tbody>
+        </table>
+      </div>
+    </div>
+    <!--- .row -->
+  </section> <!-- .container-fluid -->
 
   <section class="jumbotron jumbotron-fluid" id="contribution">
     <div class="container">

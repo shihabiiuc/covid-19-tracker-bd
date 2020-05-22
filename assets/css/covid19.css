@@ -35,6 +35,10 @@ img{
 #summery .list-group-item #total_cases.badge-warning{
 	color: #FFF;
 }
+#summery p{
+	font-size: 40px;
+}
+#summery span{font-size: 45px;}
 #header {
 	background-color: transparent;
 }
@@ -60,3 +64,11 @@ img{
 #contribution.jumbotron.jumbotron-fluid .container p{
 	color: #FFFFFF;
 }
+
+/**
+*	Table
+*/
+table.table.table-striped.table-dark{
+	font-size: 30px;
+}
+
