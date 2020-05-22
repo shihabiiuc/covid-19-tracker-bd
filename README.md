@@ -5,3 +5,5 @@ This covid-19 tracker has been developed for Bangladesh.
 Built by: [Shihabiiuc.Com](https://www.shihabiiuc.com/).
 
 <a href="https://shihabiiuc.github.io/covid-19-tracker-bd/"><img src="assets/img/screenshot.png" title="Covid-19 Update Bangladesh" alt="covid-19, coronavirus, bangladesh"></a>
+
+_Want to make improvements on this repo? Give me a shout at shihabdinajpur@gmail.com_
