@@ -15,13 +15,32 @@ img{
 	max-width: 105px;
 }
 .page_title{
+	font-size: 28px;
 	text-align: center;
 	color: #FFF;
 }
 .page_title a:hover{text-decoration: none;}
-@media (min-width: 1100px) {
+@media (min-width: 768px) {
 	.page_title {
-		font-size: 40px;
+		font-size: 50px;
+	}
+}
+
+.page_title a img{
+	display: block;
+	margin: 0 auto;
+}
+@media (min-width: 768px) {
+	.page_title a img{
+		display: inline;
+	}
+}
+#makeimprovement.d-block{
+	display: none !important;
+}
+@media (min-width: 768px) {
+	#makeimprovement.d-block{
+		display: block !important;
 	}
 }
 
@@ -69,11 +88,11 @@ img{
 *	Table
 */
 table.table.table-striped.table-dark{
-	font-size: 30px;
+	font-size: 18px;
 }
 @media (min-width: 768px) {
 	table.table.table-striped.table-dark{
-		font-size: 18px;
+		font-size: 22px;
 	}
 }
 
