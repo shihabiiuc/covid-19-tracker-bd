@@ -71,4 +71,9 @@ img{
 table.table.table-striped.table-dark{
 	font-size: 30px;
 }
+@media (min-width: 768px) {
+	table.table.table-striped.table-dark{
+		font-size: 18px;
+	}
+}
 
