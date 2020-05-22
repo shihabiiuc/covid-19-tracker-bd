@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+img{
+	max-width: 100%;
+}
+
+.logo{
+	max-width: 105px;
+}
+.page_title{
+	text-align: center;
+	color: #FFF;
+}
+@media (min-width: 1100px) {
+	.page_title {
+		font-size: 40px;
+	}
+}
+
+#summery .list-group-item {
+	background-color: transparent;
+	border: none;
+}
+#summery .list-group-item{
+	color: #FFF;
+}
+#summery .list-group-item #total_cases.badge-warning{
+	color: #FFF;
+}
+#header {
+	background-color: transparent;
+}
+.nav-tabs#myTab{
+	border-bottom: 1px solid #454545;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #FFF !important;
+    background-color: #343A40 !important;
+    border-color: #28A745 #DC3545 #343A40 !important;
+}
